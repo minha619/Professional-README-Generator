@@ -42,8 +42,8 @@ const questions = [
         }
     },
     {
-        type: 'input',
-        name: 'usage',
+        type: 'confirm',
+        name: 'confirmUsage',
         message: 'Provide information about the use of the project. (Required)',
         validate: usageInput=> {
             if(usageInput){
@@ -52,9 +52,25 @@ const questions = [
                 console.log('Please provide information aobut the use of the project!');
             }
         }
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Provide test instructions for the project',
+        validate: testInput  => {
+            if(testInput){
+                return true;
+            }else{
+                console.log('Please provide test instruction!')
+            }
+        }
+    },
+    {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Choose a license for your project',
+        choices: ['Apache', 'GNU General Public', 'MIT']
     }
-
-
 ];
 
 // TODO: Create a function to write README file
