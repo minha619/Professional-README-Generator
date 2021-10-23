@@ -29,12 +29,12 @@ function generateMarkdown(data) {
   [![License](https://img.shields.io/badge/license-${data.license}-lightgrey)]
 
   ## Table of Contents:
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[Contribution](#contribution)
-  -[Testing](#testing)
-  -[Additional Information](#additional-info)
+  *[Description](#description)
+  *[Installation](#installation)
+  *[Usage](#usage)
+  *[Contribution](#contribution)
+  *[Testing](#testing)
+  *[Additional Information](#additional-info)
 
   ## Description:
   ${data.description}
