@@ -25,38 +25,44 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## License:
-  ![License](https://img.shields.io/badge/license-${data.license}-lightgrey)
+## License:
+![License](https://img.shields.io/badge/license-${data.license}-blue)
 
-  ## Table of Contents:
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Contribution](#contribution)
-  *[Testing](#testing)
-  *[Additional Information](#additional-info)
+## Table of Contents:
+* [Description](#description)
+  
+* [Installation](#installation)
+  
+* [Usage](#usage)
+  
+* [Contribution](#contribution)
+  
+* [Testing](#testing)
+  
+* [Additional Information](#additional-info)
 
-  ## Description:
-  ${data.description}
+## Description:
+${data.description}
 
-  ## Installation:
-  ${data.installation}
+## Installation:
+${data.installation}
 
-  ## Usage:
-  ${data.usage}
+## Usage:
+${data.usage}
 
-  ## License:
-  ${data.license}
+## License:
+${data.license}
 
-  ## Contribution:
-  ${data.contribution}
+## Contribution:
+${data.contribution}
 
-  ## Testing:
-  ${data.test}
+## Testing:
+${data.test}
 
-  ## Questions:
-  -Github: [${data.github}](https://github.com/${data.github})
-  -For additional questions about the project, please reach out to ${data.email}
+## Questions:
+- Github: [${data.github}](https://github.com/${data.github})
+  
+- For additional questions about the project, please reach out to ${data.email}
 
 `;
 }
