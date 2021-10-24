@@ -132,7 +132,7 @@ function init() {
 // Function call to initialize app
 init()
     .then(userInput => generateMarkdown (userInput))
-    .then(generateReadMe => writeToFile("output/README.md", generateReadMe))
+    .then(generateReadMe => writeToFile("dist/README.md", generateReadMe))
     .catch(err => {
         console.log(err);
     });

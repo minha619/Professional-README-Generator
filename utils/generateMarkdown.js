@@ -31,13 +31,13 @@ function generateMarkdown(data) {
 ## Table of Contents:
 * [Description](#description)
   
-* [Installation](#installation)
+* [Installation Instructions](#installation)
   
-* [Usage](#usage)
+* [Usage Information](#usage)
   
-* [Contribution](#contribution)
+* [Contribution Guidelines](#contribution)
   
-* [Testing](#testing)
+* [Testing Instructions](#testing)
   
 * [Additional Information](#additional-info)
 
@@ -59,7 +59,7 @@ ${data.contribution}
 ## Testing:
 ${data.test}
 
-## Questions:
+## Additional Questions:
 - Github: [${data.github}](https://github.com/${data.github})
   
 - For additional questions about the project, please reach out to ${data.email}
