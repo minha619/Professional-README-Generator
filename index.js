@@ -30,7 +30,7 @@ const promptUser = () => [
                 return true;
             } else {
                 console.log('Please provide a proejct description!');
-            }
+            }``
         }
     },
     //installation  instruction
