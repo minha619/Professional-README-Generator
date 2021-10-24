@@ -90,7 +90,7 @@ const promptUser = () => [
         type: 'checkbox',
         name: 'license',
         message: 'Choose a license for your project',
-        choices: ['Apache', 'GNU General Public', 'MIT']
+        choices: ['Apache', 'GNU', 'MIT']
     },
     //github username
     {
@@ -132,7 +132,7 @@ function init() {
 // Function call to initialize app
 init()
     .then(userInput => generateMarkdown (userInput))
-    .then(generateReadMe => writeToFile("README.md", generateReadMe))
+    .then(generateReadMe => writeToFile("output/README.md", generateReadMe))
     .catch(err => {
         console.log(err);
     });
