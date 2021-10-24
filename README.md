@@ -28,6 +28,9 @@ Start generating a professional README file with node index.js from the command-
 ## Demo Video:
 - https://drive.google.com/file/d/1u-ISWMy2cI_vEQknUW06Lc8Kgh-UiA3M/view?usp=sharing
 
+## Screenshot
+![Screenshot](/assets/screenshot.png)
+
 ## License:
 MIT
 
