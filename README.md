@@ -26,7 +26,7 @@ Use npm to install Inquirer.js
 Start generating a professional README file with node index.js from the command-line
 
 ## Demo Video:
-- https://watch.screencastify.com/v/8NgdJ8hYXk9k4OaAQbpC
+- https://drive.google.com/file/d/1u-ISWMy2cI_vEQknUW06Lc8Kgh-UiA3M/view?usp=sharing
 
 ## License:
 MIT
